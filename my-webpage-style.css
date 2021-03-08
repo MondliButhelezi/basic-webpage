@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+
+body {
+  color: #011018;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  /* margin: 25px 200px 50px 200px; */
+  padding: 0;
+  background-image: linear-gradient(
+      150deg,
+      rgba(233, 236, 236, 0.8),
+      rgba(152, 199, 230, 0.7)
+    ),
+    url(https://i.imgur.com/q0kEYaY.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* Images hover settings START-------------- */
+#zoom {
+  transition: transform 0.2s;
+  margin: 0 auto;
+}
+
+#zoom:hover {
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+/* Images hover settings END-------------- */
+
+h1 {
+  font-size: 50px;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 0em;
+}
+
+p {
+  font-size: 20px;
+  margin-bottom: 1em;
+  word-wrap: break-word;
+  color: rgba(10, 1, 1, 0.747);
+  text-align: justify;
+}
+
+/* first section css START ------------------------------------------------------------------------------------------ */
+
+.container {
+  margin: 25px 200px 50px 200px;
+  display: flex;
+}
+
+.containerImage {
+  float: right;
+  width: 50%;
+  /* padding: 0 20px 20px 0; */
+  padding-left: 1em;
+}
+
+.containerText {
+  float: left;
+  width: 50%;
+  padding-top: 10px;
+  word-wrap: break-word;
+}
+
+/* first section css END ------------------------------------------------------------------------------------------ */
+/* second section css START ------------------------------------------------------------------------------------------ */
+
+.container1 {
+  margin: 25px 20px 50px 20px;
+  display: flex;
+  background-image: linear-gradient(
+      150deg,
+      rgba(196, 195, 194, 0.8),
+      rgba(120, 176, 202, 0.7)
+    ),
+    url(https://i.imgur.com/QZcZH6S.jpg);
+  max-width: 100%;
+  background-size: cover;
+}
+
+.containerImage1 {
+  padding-top: 20px;
+  padding-right: 1em;
+  padding-left: 1em;
+  padding-bottom: 20px;
+}
+
+.containerText1 {
+  width: 41em;
+  padding-top: 2em;
+  text-align: justify;
+  padding-right: 1em;
+}
+
+#home {
+  font-size: 40px;
+  color: saddlebrown;
+  font-family: "Roboto", sans-serif;
+}
+/* second section css END ------------------------------------------------------------------------------------------ */
+/* third section css START ------------------------------------------------------------------------------------------ */
+
+h2 {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.container2 {
+  padding-top: 0px;
+  padding-right: 1em;
+  padding-left: 1em;
+  padding-bottom: 20px;
+  margin: 25px 200px 20px;
+  background-color: rgba(
+    rgba(116, 68, 68, 0.719),
+    rgb(59, 170, 59),
+    rgb(22, 22, 90),
+    alpha
+  );
+}
+
+.containerText2 {
+  text-align: center;
+}
+
+#translator {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#translator td,
+#translator th {
+  border: 1px solid rgb(100, 45, 14);
+  padding: 8px;
+  text-align: center;
+}
+
+#translator tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#translator tr:hover {
+  background-color: rgba(230, 72, 9, 0.397);
+}
+
+#translator th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  font-size: 25px;
+  background-color: rgba(124, 57, 2, 0.877);
+  color: rgb(255, 255, 255);
+}
+/* third section css END ------------------------------------------------------------------------------------------ */
+/* 4th section css START ------------------------------------------------------------------------------------------ */
+
+.container3 {
+  margin: 25px 20px 50px 20px;
+  display: flex;
+}
+
+.containerImage1 {
+  padding-top: 20px;
+  padding-right: 1em;
+  padding-left: 1em;
+  padding-bottom: 20px;
+}
+
+.containerText3 {
+  width: 41em;
+  padding-top: 2em;
+  text-align: justify;
+  padding-right: 1em;
+}
+
+#home {
+  font-size: 40px;
+  color: saddlebrown;
+  font-family: "Roboto", sans-serif;
+}
+
+.containerAll {
+  background-image: linear-gradient(
+      150deg,
+      rgba(238, 186, 134, 0.8),
+      rgba(71, 175, 94, 0.7)
+    ),
+    url(https://i.imgur.com/0uEJjEU.jpg);
+  max-width: 100%;
+  background-size: cover;
+}
+
+/* 4th section css END----------------------------------------------------------------------------------------- */
+
+footer {
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  /* background-color: rgba(129, 79, 21, 0.671); */
+  color: white;
+  text-align: center;
+}
+
+.foot {
+  text-align: center;
+  font-size: 10px;
+}
